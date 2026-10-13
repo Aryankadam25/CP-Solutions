@@ -23,3 +23,14 @@ int main(){
 		cout<<solve(a,exp,N)<<"\n";
 	}
 }
+
+
+//note : from fermats little principle
+// (a^k)%p=(a^(k%{p-1)))%p
+
+// fermats little theorem
+// a^(p-1) is congruent to 1(mod p)
+
+// congruent def:
+// a congruent b % p == p|(a-b)
+
